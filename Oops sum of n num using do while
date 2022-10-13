@@ -1,0 +1,22 @@
+#include <iostream> 
+#include <stdio.h> 
+using namespace std; 
+int main() 
+{ 
+ int i; 
+ int startNumber, endNumber; 
+ long sum = 0; 
+ startNumber = 1; 
+ endNumber = 10; 
+ i = startNumber; 
+ do 
+ { 
+ sum += (long)i; 
+ i++; 
+ } while (i <= endNumber); 
+ system("cls"); 
+ cout << "The sum is: " << sum; 
+ cout << "\n\n"; 
+ system("pause"); 
+ return 0; 
+}
